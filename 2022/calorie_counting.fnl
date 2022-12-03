@@ -1,9 +1,7 @@
 ;;; Day 1: Calorie Counting
 ;; https://adventofcode.com/2022/day/1
 
-(local {: time} (require :aoc))
-
-(lambda solution [input_data]
+(lambda solve [input_data]
   (local inlined (-> input_data
                      (: :gsub "\n" "-")
                      (: :gsub "%-%-" "|")))
@@ -22,4 +20,4 @@
                (. elfs (- (length elfs) 2))))))
 
 (with-open [input_file (io.open :calorie_counting.txt :r)]
-  (print (time solution (input_file:read "*all"))))
+  (print (solve (input_file:read "*all"))))

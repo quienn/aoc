@@ -1,8 +1,6 @@
 ;;; Day 2: Rock Paper Scissors
 ;; https://adventofcode.com/2022/day/2
 
-(local {: time} (require :aoc))
-
 (fn classify [s]
   "Returns the decrypted move and it's corresponing weight."
   (match s
@@ -38,7 +36,7 @@
     :B :C
     :C :A))
 
-(fn solution [input_data]
+(fn solve [input_data]
   (var by-prediction-score 0)
   (var by-indication-score 0)
   (each [game (input_data:gmatch "([^\n]+)")]
@@ -62,4 +60,4 @@
     (values by-prediction-score by-indication-score))
 
 (with-open [input_file (io.open :rock_paper_scissors.txt :r)]
-  (print (time solution (input_file:read "*all"))))
+  (print (solve (input_file:read "*all"))))
