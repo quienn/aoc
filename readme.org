@@ -1,0 +1,10 @@
+* Advent of Code
+
+Este repositorio contiene soluciones para los acertijos del evento [[https://adventofcode.com][Advent of Code]], que se celebra cada año.
+
+Intento variar los lenguajes dependiendo del problema que quiero resolver. La mayor parte es Lua y variantes (Fennel y MoonScript).
+
+** ¿Cómo usar?
+
+Solo debes agregar los datos de los acertijos dentro de un archivo que lleve el nombre del acertijo. Tampoco espero que alguien utilice esto seriamente así que, me abstengo de ayudarle a los demás.
+
