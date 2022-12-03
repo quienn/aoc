@@ -8,3 +8,9 @@ Intento variar los lenguajes dependiendo del problema que quiero resolver. La ma
 
 Solo debes agregar los datos de los acertijos dentro de un archivo que lleve el nombre del acertijo. Tampoco espero que alguien utilice esto seriamente así que, me abstengo de ayudarle a los demás.
 
+** Notas (para mí)
+
+*** TODO Reescribir soluciones en MoonScript
+
+**** Dejar de depender en Penlight
+
